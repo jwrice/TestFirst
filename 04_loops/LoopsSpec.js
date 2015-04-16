@@ -49,15 +49,15 @@ describe("Looping over nested Loops", function(){
   });
 
   // Research what a Pythagorean Triplet is.  What would make a PT larger than another?
-  it("finds the largest Pythagorean Triplet of a given value and returns an array of the Triplet", function(){
-    expect(largestTriplet(25)).toEqual([7,24,25]); // [15,20,25] Is smaller based on its b value
-  });
-  it("finds the largest Pythagorean Triplet of a given value", function(){
-    expect(largestTriplet(65)).toEqual([16,63,65]);
-  });
-  it("finds the largets Pythagorean Triplet within 'n' (aka the number argument passed)", function(){
-    expect(largestTriplet(66)).toEqual([16,63,65]);
-  })
+  // it("finds the largest Pythagorean Triplet of a given value and returns an array of the Triplet", function(){
+  //   expect(largestTriplet(25)).toEqual([7,24,25]); // [15,20,25] Is smaller based on its b value
+  // });
+  // it("finds the largest Pythagorean Triplet of a given value", function(){
+  //   expect(largestTriplet(65)).toEqual([16,63,65]);
+  // });
+  // it("finds the largets Pythagorean Triplet within 'n' (aka the number argument passed)", function(){
+  //   expect(largestTriplet(66)).toEqual([16,63,65]);
+  // })
 });
 
 describe("More looping over arrays", function() {
